@@ -1,4 +1,4 @@
-/* FONT */
+/* GENERAL */
 html{
     font-family: 'Open Sans',
     sans-serif;
@@ -6,19 +6,33 @@ html{
     margin: 0 auto;
 }
 
-.logo-sony{
-    max-width: 7%;
-    height: auto;
-}
-
 :root {
     --bs-black: #0a0a0a;
 }
 
-.header{
+.border{
+    border-radius: 20px;
 }
 
+/* HEADER */
+.logo-sony{
+    max-width: 7%;
+    height: auto;
+}
 .top-header{
     background-color: var(--bs-black);
     /* height: 200px; */
+}
+
+/* MAIN */
+
+/* JUMBO */
+.jumbo-background{
+    height: 600px;
+    background-image: url(./../img/jumbo-bg.png);
+}
+
+.banner-img{
+    max-width: 100%;
+    height: auto;
 }
