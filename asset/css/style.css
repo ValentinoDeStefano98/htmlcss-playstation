@@ -8,7 +8,8 @@ html{
 
 :root {
     --bs-black: #0a0a0a;
-    --bs-dark-grey: #202020
+    --bs-dark-grey: #202020;
+    --bs-light-grey: #BFBCBB;
 }
 
 .border-img{
@@ -56,4 +57,9 @@ html{
 /* LAST GAMES */
 .last-games-section{
     background-color: var(--bs-dark-grey);
+}
+
+/* PS PLUS */
+.ps-plus-section{
+    background-color: var(--bs-light-grey);
 }
