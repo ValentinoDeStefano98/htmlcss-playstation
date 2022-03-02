@@ -8,15 +8,20 @@ html{
 
 :root {
     --bs-black: #0a0a0a;
+    --bs-dark-grey: #202020
 }
 
-.border{
+.border-img{
     border-radius: 20px;
 }
 
 .limited-width{
     width: 90%;
     margin: 0 auto;
+}
+
+.opacity{
+    opacity: 0.6;
 }
 
 /* HEADER */
@@ -46,4 +51,9 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+/* LAST GAMES */
+.last-games-section{
+    background-color: var(--bs-dark-grey);
 }
