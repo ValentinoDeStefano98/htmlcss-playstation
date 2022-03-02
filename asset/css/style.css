@@ -27,6 +27,16 @@ html{
     opacity: 0.6;
 }
 
+.fa-trademark{
+    font-size: 60%;
+    vertical-align: 50%;
+}
+
+.fa-registered{
+    font-size: 40%;
+    vertical-align: 70%;
+}
+
 /* EFFECTS */
 .underline:hover{
     text-decoration: underline;
