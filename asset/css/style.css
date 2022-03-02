@@ -43,7 +43,7 @@ html{
 .jumbo-background{
     height: 600px;
     background-image: url(./../img/jumbo-bg.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-position: 50%;
 }
@@ -54,6 +54,11 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+.img-jumbo2{
+    max-width: 60%;
+    height: auto;
 }
 
 /* LAST GAMES */
