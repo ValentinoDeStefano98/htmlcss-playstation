@@ -10,6 +10,8 @@ html{
     --bs-black: #0a0a0a;
     --bs-dark-grey: #202020;
     --bs-light-grey: #BFBCBB;
+    --bs-dark-blue: #171C3B;
+    --bs-blue-ps: #01439C;
 }
 
 .border-img{
@@ -62,4 +64,36 @@ html{
 /* PS PLUS */
 .ps-plus-section{
     background-color: var(--bs-light-grey);
+}
+
+/* PS NOW */
+.ps-now-section{
+    background-color: var(--bs-dark-blue);
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--bs-blue-ps);
+}
+
+.globe{
+    width: 15px;
+}
+
+.sie{
+    width: 150px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.list li{
+    list-style: none;
+    color: white;
+}
+
+.ps-now-img{
+    width: 100px;
 }
