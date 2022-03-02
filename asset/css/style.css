@@ -27,6 +27,41 @@ html{
     opacity: 0.6;
 }
 
+/* EFFECTS */
+.underline:hover{
+    text-decoration: underline;
+}
+
+.cursor:hover{
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: black !important;
+    background-color: white !important;
+    outline: 3px solid var(--bs-blue-ps);
+}
+
+.border:hover{
+    color: black !important;
+    background-color: white !important;
+    padding: 2px;
+    outline: 2px solid var(--bs-blue-ps);
+}
+
+.active:hover{
+    opacity: 10;
+    border-bottom: 2px solid #0D6EFD;
+}
+
+.zoom:hover{
+    transform: scale(1.1);
+}
+
+.zoom{
+    transition: 0.2s;
+}
+
 /* HEADER */
 .logo-sony{
     width: 80px;
@@ -34,18 +69,22 @@ html{
 }
 .top-header{
     background-color: var(--bs-black);
-    /* height: 200px; */
 }
 
 /* MAIN */
 
-/* JUMBO */
+/* JUMBO - JUMBO2 */
 .jumbo-background{
     height: 600px;
     background-image: url(./../img/jumbo-bg.png);
     background-repeat: repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+.btn-orange{
+    background-color: #CD3D10 !important;
+    border-color: #CD3D10 !important;
 }
 
 .jumbo-2-background {
@@ -61,6 +100,15 @@ html{
     height: auto;
 }
 
+/* PS5 */
+.ps5-header{
+    color: #0072CE;
+}
+
+.grey-text{
+    color: #727272;
+}
+
 /* LAST GAMES */
 .last-games-section{
     background-color: var(--bs-dark-grey);
@@ -69,6 +117,11 @@ html{
 /* PS PLUS */
 .ps-plus-section{
     background-color: var(--bs-light-grey);
+}
+
+.btn-plus{
+    background-color: #D9DADC !important;
+    color: var(--bs-blue-ps) !important;
 }
 
 /* PS NOW */
