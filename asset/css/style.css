@@ -42,7 +42,7 @@ html{
     outline: 3px solid var(--bs-blue-ps);
 }
 
-.border:hover{
+.border-effect:hover{
     color: black !important;
     background-color: white !important;
     padding: 2px;
@@ -109,9 +109,19 @@ html{
     color: #727272;
 }
 
+/* IT-TAKES-TWO */
+.shadow{
+    text-shadow: 5px 5px 5px black;
+}
+
 /* LAST GAMES */
 .last-games-section{
     background-color: var(--bs-dark-grey);
+}
+
+.img-last-game{
+    max-width: 85%;
+    height: auto;
 }
 
 /* PS PLUS */
@@ -154,4 +164,14 @@ footer{
 
 .ps-now-img{
     width: 100px;
+}
+
+.info{
+    text-decoration: underline;
+    color: white;
+}
+
+.info:hover{
+    cursor: pointer;
+    color: black;
 }
