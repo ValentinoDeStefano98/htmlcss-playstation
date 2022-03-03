@@ -1,7 +1,7 @@
 /* GENERAL */
-html{
+html {
     font-family: 'Open Sans',
-    sans-serif;
+        sans-serif;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -14,81 +14,124 @@ html{
     --bs-blue-ps: #01439C;
 }
 
-.border-img{
+.border-img {
     border-radius: 20px;
 }
 
-.limited-width{
+.limited-width {
     width: 90%;
     margin: 0 auto;
 }
 
-.opacity{
+.opacity {
     opacity: 0.6;
 }
 
-.fa-trademark{
+.fa-trademark {
     font-size: 60%;
     vertical-align: 50%;
 }
 
-.fa-registered{
+.fa-registered {
     font-size: 40%;
     vertical-align: 70%;
 }
 
-.font-size-custom{
+.font-size-custom {
     font-size: 0.8em;
 }
 
 /* EFFECTS */
-.underline:hover{
+.underline:hover {
     text-decoration: underline;
 }
 
-.cursor:hover{
+.cursor:hover {
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     color: black !important;
     background-color: white !important;
     outline: 3px solid var(--bs-blue-ps);
 }
 
-.border-effect:hover{
+.border-effect:hover {
     color: black !important;
     background-color: white !important;
     padding: 2px;
     outline: 2px solid var(--bs-blue-ps);
 }
 
-.active:hover{
+.active:hover {
     opacity: 10;
     border-bottom: 2px solid #0D6EFD;
 }
 
-.zoom:hover{
+.zoom:hover {
     transform: scale(1.1);
 }
 
-.zoom{
+.zoom {
     transition: 0.2s;
 }
 
+.navbar-color:hover {
+    color: #0072CE;
+}
+
+.fa-angle-down {
+    transition: transform .2s ease-out;
+}
+
+.fa-angle-down:hover {
+    transform: rotate(180deg);
+}
+
 /* HEADER */
-.logo-sony{
-    width: 80px;
+.logo-sony {
+    max-width: 80px;
     height: auto;
 }
-.top-header{
+
+.top-header {
     background-color: var(--bs-black);
+    height: 50px;
+}
+
+.navbar {
+    height: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.fa-circle {
+    color: #0072CE;
+    font-size: 10px;
+}
+
+.dropdown-menu {
+    background-color: white;
+}
+
+.navbar-collapse {
+    background-color: white !important;
 }
 
 /* MAIN */
 
+main {
+    margin-top: 130px;
+}
+
 /* JUMBO - JUMBO2 */
-.jumbo-background{
+.jumbo-background {
     height: 600px;
     background-image: url(./../img/jumbo-bg.png);
     background-repeat: repeat;
@@ -96,7 +139,7 @@ html{
     background-position: 50%;
 }
 
-.btn-orange{
+.btn-orange {
     background-color: #CD3D10 !important;
     border-color: #CD3D10 !important;
 }
@@ -109,83 +152,83 @@ html{
     background-position: 50%;
 }
 
-.img-jumbo2{
+.img-jumbo2 {
     max-width: 60%;
     height: auto;
 }
 
 /* PS5 */
-.ps5-header{
+.ps5-header {
     color: #0072CE;
 }
 
-.grey-text{
+.grey-text {
     color: #727272;
 }
 
 /* IT-TAKES-TWO */
-.shadow{
+.shadow {
     text-shadow: 5px 5px 5px black;
 }
 
 /* LAST GAMES */
-.last-games-section{
+.last-games-section {
     background-color: var(--bs-dark-grey);
 }
 
-.img-last-game{
+.img-last-game {
     max-width: 85%;
     height: auto;
 }
 
 /* PS PLUS */
-.ps-plus-section{
+.ps-plus-section {
     background-color: var(--bs-light-grey);
 }
 
-.btn-plus{
+.btn-plus {
     background-color: #D9DADC !important;
     color: var(--bs-blue-ps) !important;
 }
 
 /* PS NOW */
-.ps-now-section{
+.ps-now-section {
     background-color: var(--bs-dark-blue);
 }
 
 /* FOOTER */
-footer{
+footer {
     background-color: var(--bs-blue-ps);
 }
 
-.globe{
+.globe {
     width: 15px;
 }
 
-.sie{
+.sie {
     width: 150px;
 }
 
-.list li a{
+.list li a {
     text-decoration: none;
     color: white;
 }
 
-.list li{
+.list li {
     list-style: none;
     color: white;
 }
 
-.ps-now-img{
+.ps-now-img {
     width: 100px;
 }
 
-.info{
+.info {
     text-decoration: underline;
     color: white;
 }
 
-.info:hover{
+.info:hover {
     cursor: pointer;
     color: black;
 }
